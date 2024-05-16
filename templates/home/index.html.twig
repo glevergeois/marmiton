@@ -7,14 +7,28 @@
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
+<header>
+    <div id="for_logo"><img src="{{asset('build/img/logo.svg')}}" alt="logo"></div>
+    <div id="for_users">
+        <a href="{{ path('app_register')}}">Inscription</a>
+        <a href="{{ path('app_login')}}">Connexion</a>
+    </div>
+</header>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+<section>
+    <div class="unique_recipe">
+        {% for recipe in recipes %}
+        <img src={{recipe.image}} alt="Picture of the recipe">
+        <div class="main_infos_recipe">
+            <a href="{{ path('app_recipe_show', {id: recipe.id}) }}">{{recipe.name}} </a>
+            {# <h4> {{recipe.forHowManyPersons}} </h4>
+            <h4> {{recipe.duration|date('Y-m-d') }} minute</h4> #}
+        </div>
+            {# <p> {{recipe.texte}} </p> #}
+            {# <p> {{recipe.comment}} </p> #}
+        {% else %}
+        {% endfor %}
+    </div>
+</section>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>C:/laragon/www/marmiton/src/Controller/HomeController.php</code></li>
-        <li>Your template at <code>C:/laragon/www/marmiton/templates/home/index.html.twig</code></li>
-    </ul>
-</div>
 {% endblock %}

@@ -55,6 +55,12 @@ Encore
     
     })
 
+    .copyFiles({
+        from: './assets/img',
+        to: 'img/[path][name].[ext]',
+        pattern: /\.(png|jpg|jpeg|svg|webp)$/
+    })
+
     // enables Sass/SCSS support
     //.enableSassLoader()
 
