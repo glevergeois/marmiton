@@ -27,7 +27,7 @@
                 <td>{{ recipe.duration ? recipe.duration|date('H:i:s') : '' }}</td>
                 <td>{{ recipe.forHowManyPersons }}</td>
                 <td>{{ recipe.image }}</td>
-                <td>{{ recipe.ingredient ? recipe.ingredient|json_encode : '' }}</td>
+                <td>{{ recipe.ingredients ? recipe.ingredients|json_encode : '' }}</td>
                 <td>
                     <a href="{{ path('app_recipe_show', {'id': recipe.id}) }}">show</a>
                     <a href="{{ path('app_recipe_edit', {'id': recipe.id}) }}">edit</a>

@@ -47,23 +47,23 @@
             "authors": [
                 {
                     "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
+                    "username": "guilhermeblanco@gmail.com"
                 },
                 {
                     "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
+                    "username": "roman@code-factory.org"
                 },
                 {
                     "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
+                    "username": "kontakt@beberlei.de"
                 },
                 {
                     "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
+                    "username": "jonwage@gmail.com"
                 },
                 {
                     "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com"
+                    "username": "schmittjoh@gmail.com"
                 }
             ],
             "description": "PHP Doctrine Cache library is a popular cache implementation that supports many different drivers such as redis, memcache, apc, mongodb and others.",
@@ -138,23 +138,23 @@
             "authors": [
                 {
                     "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
+                    "username": "guilhermeblanco@gmail.com"
                 },
                 {
                     "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
+                    "username": "roman@code-factory.org"
                 },
                 {
                     "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
+                    "username": "kontakt@beberlei.de"
                 },
                 {
                     "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
+                    "username": "jonwage@gmail.com"
                 },
                 {
                     "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com"
+                    "username": "schmittjoh@gmail.com"
                 }
             ],
             "description": "PHP Doctrine Collections library that adds additional functionality on top of PHP arrays.",
@@ -241,19 +241,19 @@
             "authors": [
                 {
                     "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
+                    "username": "guilhermeblanco@gmail.com"
                 },
                 {
                     "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
+                    "username": "roman@code-factory.org"
                 },
                 {
                     "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
+                    "username": "kontakt@beberlei.de"
                 },
                 {
                     "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
+                    "username": "jonwage@gmail.com"
                 }
             ],
             "description": "Powerful PHP database abstraction layer (DBAL) with many features for database schema introspection and management.",
@@ -422,11 +422,11 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
+                    "username": "kontakt@beberlei.de"
                 },
                 {
                     "name": "Symfony Community",
@@ -519,7 +519,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Doctrine Project",
@@ -596,27 +596,27 @@
             "authors": [
                 {
                     "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
+                    "username": "guilhermeblanco@gmail.com"
                 },
                 {
                     "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
+                    "username": "roman@code-factory.org"
                 },
                 {
                     "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
+                    "username": "kontakt@beberlei.de"
                 },
                 {
                     "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
+                    "username": "jonwage@gmail.com"
                 },
                 {
                     "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com"
+                    "username": "schmittjoh@gmail.com"
                 },
                 {
                     "name": "Marco Pivetta",
-                    "email": "ocramius@gmail.com"
+                    "username": "ocramius@gmail.com"
                 }
             ],
             "description": "The Doctrine Event Manager is a simple PHP event system that was built to be used with the various Doctrine projects.",
@@ -686,23 +686,23 @@
             "authors": [
                 {
                     "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
+                    "username": "guilhermeblanco@gmail.com"
                 },
                 {
                     "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
+                    "username": "roman@code-factory.org"
                 },
                 {
                     "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
+                    "username": "kontakt@beberlei.de"
                 },
                 {
                     "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
+                    "username": "jonwage@gmail.com"
                 },
                 {
                     "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com"
+                    "username": "schmittjoh@gmail.com"
                 }
             ],
             "description": "PHP Doctrine Inflector is a small library that can perform string manipulations with regard to upper/lowercase and singular/plural forms of words.",
@@ -779,7 +779,7 @@
             "authors": [
                 {
                     "name": "Marco Pivetta",
-                    "email": "ocramius@gmail.com",
+                    "username": "ocramius@gmail.com",
                     "homepage": "https://ocramius.github.io/"
                 }
             ],
@@ -846,15 +846,15 @@
             "authors": [
                 {
                     "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
+                    "username": "guilhermeblanco@gmail.com"
                 },
                 {
                     "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
+                    "username": "roman@code-factory.org"
                 },
                 {
                     "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com"
+                    "username": "schmittjoh@gmail.com"
                 }
             ],
             "description": "PHP Doctrine Lexer parser library that can be used in Top-Down, Recursive Descent Parsers.",
@@ -950,15 +950,15 @@
             "authors": [
                 {
                     "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
+                    "username": "kontakt@beberlei.de"
                 },
                 {
                     "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
+                    "username": "jonwage@gmail.com"
                 },
                 {
                     "name": "Michael Simonson",
-                    "email": "contact@mikesimonson.com"
+                    "username": "contact@mikesimonson.com"
                 }
             ],
             "description": "PHP Doctrine Migrations project offer additional functionality on top of the database abstraction layer (DBAL) for versioning your database schema and easily deploying changes to it. It is a very easy to use and a powerful tool.",
@@ -1045,23 +1045,23 @@
             "authors": [
                 {
                     "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
+                    "username": "guilhermeblanco@gmail.com"
                 },
                 {
                     "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
+                    "username": "roman@code-factory.org"
                 },
                 {
                     "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
+                    "username": "kontakt@beberlei.de"
                 },
                 {
                     "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
+                    "username": "jonwage@gmail.com"
                 },
                 {
                     "name": "Marco Pivetta",
-                    "email": "ocramius@gmail.com"
+                    "username": "ocramius@gmail.com"
                 }
             ],
             "description": "Object-Relational-Mapper for PHP",
@@ -1122,27 +1122,27 @@
             "authors": [
                 {
                     "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
+                    "username": "guilhermeblanco@gmail.com"
                 },
                 {
                     "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
+                    "username": "roman@code-factory.org"
                 },
                 {
                     "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
+                    "username": "kontakt@beberlei.de"
                 },
                 {
                     "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
+                    "username": "jonwage@gmail.com"
                 },
                 {
                     "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com"
+                    "username": "schmittjoh@gmail.com"
                 },
                 {
                     "name": "Marco Pivetta",
-                    "email": "ocramius@gmail.com"
+                    "username": "ocramius@gmail.com"
                 }
             ],
             "description": "The Doctrine Persistence project is a set of shared interfaces and functionality that the different Doctrine object mappers share.",
@@ -1213,7 +1213,7 @@
             "authors": [
                 {
                     "name": "Jeremy Dorn",
-                    "email": "jeremy@jeremydorn.com",
+                    "username": "jeremy@jeremydorn.com",
                     "homepage": "https://jeremydorn.com/"
                 }
             ],
@@ -1546,7 +1546,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -1638,7 +1638,7 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "username": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -1710,7 +1710,7 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "username": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -1787,7 +1787,7 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "username": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -1867,7 +1867,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -1954,7 +1954,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -2040,7 +2040,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -2107,7 +2107,7 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "username": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -2213,7 +2213,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -2282,7 +2282,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -2362,7 +2362,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -2442,7 +2442,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -2510,7 +2510,7 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "username": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -2582,7 +2582,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -2646,7 +2646,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -2715,7 +2715,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien.potencier@gmail.com"
+                    "username": "fabien.potencier@gmail.com"
                 }
             ],
             "description": "Composer plugin for Symfony",
@@ -2807,7 +2807,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -2953,7 +2953,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -3030,7 +3030,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -3143,7 +3143,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -3205,7 +3205,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -3278,7 +3278,7 @@
             "authors": [
                 {
                     "name": "Robin Chalas",
-                    "email": "robin.chalas@gmail.com"
+                    "username": "robin.chalas@gmail.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -3352,7 +3352,7 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "username": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -3436,7 +3436,7 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "username": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -3517,7 +3517,7 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "username": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -3598,7 +3598,7 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "username": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -3676,7 +3676,7 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "username": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -3743,7 +3743,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -3808,7 +3808,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -3894,7 +3894,7 @@
             "authors": [
                 {
                     "name": "Kévin Dunglas",
-                    "email": "dunglas@gmail.com"
+                    "username": "dunglas@gmail.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -3977,7 +3977,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -4059,7 +4059,7 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "username": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -4173,7 +4173,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -4257,7 +4257,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -4325,7 +4325,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -4412,7 +4412,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -4487,7 +4487,7 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "username": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -4557,7 +4557,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -4635,7 +4635,7 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "username": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -4713,7 +4713,7 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "username": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -4781,7 +4781,7 @@
                 "symfony/workflow": "<6.4"
             },
             "require-dev": {
-                "egulias/email-validator": "^2.1.10|^3|^4",
+                "egulias/username-validator": "^2.1.10|^3|^4",
                 "league/html-to-markdown": "^5.0",
                 "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
                 "symfony/asset": "^6.4|^7.0",
@@ -4829,7 +4829,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -4913,7 +4913,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -4974,7 +4974,7 @@
                 "symfony/yaml": "<6.4"
             },
             "require-dev": {
-                "egulias/email-validator": "^2.1.10|^3|^4",
+                "egulias/username-validator": "^2.1.10|^3|^4",
                 "symfony/cache": "^6.4|^7.0",
                 "symfony/config": "^6.4|^7.0",
                 "symfony/console": "^6.4|^7.0",
@@ -5007,7 +5007,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -5086,7 +5086,7 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "username": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -5156,7 +5156,7 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "username": "p@tchwork.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -5308,7 +5308,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "username": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -5380,7 +5380,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
+                    "username": "fabien@symfony.com",
                     "homepage": "http://fabien.potencier.org",
                     "role": "Lead Developer"
                 },
@@ -5390,7 +5390,7 @@
                 },
                 {
                     "name": "Armin Ronacher",
-                    "email": "armin.ronacher@active-4.com",
+                    "username": "armin.ronacher@active-4.com",
                     "role": "Project Founder"
                 }
             ],
