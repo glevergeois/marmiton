@@ -51,12 +51,13 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\Column(nullable: true)]
     private ?array $favourite = null;
 
-    #[ORM\OneToOne(mappedBy: 'creator', cascade: ['persist', 'remove'])]
-    private ?Ingredient $ingredient = null;
+    #[ORM\OneToMany(targetEntity: Ingredient::class, mappedBy: 'creator', cascade: ['persist', 'remove'])]
+    private Collection $ingredients;
 
     public function __construct()
     {
         $this->recipes = new ArrayCollection();
+        $this->ingredients = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -205,19 +206,29 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
         return $this;
     }
 
-    public function getIngredient(): ?Ingredient
+    public function getIngredients(): Collection
     {
-        return $this->ingredient;
+        return $this->ingredients;
     }
 
-    public function setIngredient(Ingredient $ingredient): static
+    public function addIngredient(Ingredient $ingredient): static
     {
-        // set the owning side of the relation if necessary
-        if ($ingredient->getCreator() !== $this) {
+        if (!$this->ingredients->contains($ingredient)) {
+            $this->ingredients->add($ingredient);
             $ingredient->setCreator($this);
         }
 
-        $this->ingredient = $ingredient;
+        return $this;
+    }
+
+    public function removeIngredient(Ingredient $ingredient): static
+    {
+        if ($this->ingredients->removeElement($ingredient)) {
+            // set the owning side to null (unless already changed)
+            if ($ingredient->getCreator() === $this) {
+                $ingredient->setCreator(null);
+            }
+        }
 
         return $this;
     }

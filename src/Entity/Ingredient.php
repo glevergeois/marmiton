@@ -27,7 +27,7 @@ class Ingredient
     #[ORM\ManyToMany(targetEntity: Recipe::class, mappedBy: 'ingredients')]
     private Collection $recipes;
 
-    #[ORM\OneToOne(inversedBy: 'ingredient', cascade: ['persist', 'remove'])]
+    #[ORM\ManyToOne(inversedBy: 'ingredients', cascade: ['persist', 'remove'])]
     #[ORM\JoinColumn(nullable: false)]
     private ?User $creator = null;
 
