@@ -206,21 +206,6 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
         return $this;
     }
 
-<<<<<<< HEAD
-    public function getIngredient(): ?Ingredient
-    {
-        return $this->ingredient;
-    }
-
-    public function setIngredient(Ingredient $ingredient): static
-    {
-        // set the owning side of the relation if necessary
-        if ($ingredient->getCreator() !== $this) {
-            $ingredient->setCreator($this);
-        }
-
-        $this->ingredient = $ingredient;
-=======
     public function getIngredients(): Collection
     {
         return $this->ingredients;
@@ -244,7 +229,6 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
                 $ingredient->setCreator(null);
             }
         }
->>>>>>> 6a83a4e46dbada869942af88a2d40d461bc46bf9
 
         return $this;
     }
