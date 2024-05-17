@@ -16,6 +16,8 @@
 </header>
 
 <section>
+    <button id="ingredient" class="add"><a href="{{ path('app_ingredient_index')}}">Ajouter un ingredient</a></button>
+    <button id="recipe" class="add"><a href="{{ path('app_recipe_index')}}">Ajouter une recette</a></button>
     <div class="unique_recipe">
         {% for recipe in recipes %}
         <img src={{recipe.image}} alt="Picture of the recipe">
