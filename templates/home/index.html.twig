@@ -17,8 +17,7 @@
 </header>
 
 <body>
-    <section>
-        <button id="ingredient" class="add"><a href="{{ path('app_ingredient_index')}}">Ajouter un ingredient</a></button>
+    <section>       
         <button id="recipe" class="add"><a href="{{ path('app_recipe_index')}}">Ajouter une recette</a></button>
         <div class="unique_recipe">
             {% for recipe in recipes %}
@@ -33,6 +32,17 @@
             {% else %}
             {% endfor %}
         </div>
+    </section>
+    <section>
+        <div class="list_of_ingredients">
+            {% for ingredient in ingredients %}
+            <div class="main_infos_recipe">
+                <ul>{{ingredient.name}} </ul>
+            </div>
+            {% else %}
+            {% endfor %}
+        </div>
+        <button id="ingredient" class="add"><a href="{{ path('app_ingredient_index')}}">Ajouter un ingredient</a></button>
     </section>
 </body>
 
