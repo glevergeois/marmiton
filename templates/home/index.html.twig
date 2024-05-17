@@ -25,12 +25,12 @@
         <button id="recipe" class="add"><a href="{{ path('app_recipe_index')}}">Ajouter une recette</a></button>
         <div class="unique_recipe">
             {% for recipe in recipes %}
-            <img src={{recipe.image}} alt="Picture of the recipe">
+            <img src="/img/{{recipe.image}}" alt="Picture of the recipe">
             <div class="main_infos_recipe">
                 <a href="{{ path('app_recipe_show', {id: recipe.id}) }}">{{recipe.name}} </a>
-                {# <h4> {{recipe.forHowManyPersons}} </h4>
-                <h4> {{recipe.duration|date('Y-m-d') }} minute</h4> #}
+                {# <h4> {{recipe.forHowManyPersons}} </h4>#}
             </div>
+                <h4> {{recipe.duration|date('h-m') }} minute</h4> 
                 {# <p> {{recipe.texte}} </p> #}
                 {# <p> {{recipe.comment}} </p> #}
             {% else %}
@@ -41,7 +41,7 @@
         <div class="list_of_ingredients">
             {% for ingredient in ingredients %}
             <div class="main_infos_recipe">
-                <ul>{{ingredient.name}} </ul>
+                <a href="{{ path('app_ingredient_show', {id: ingredient.id}) }}">{{ingredient.name}} </a>
             </div>
             {% else %}
             {% endfor %}
