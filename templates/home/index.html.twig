@@ -16,6 +16,7 @@
     </div>
 </header>
 
+<<<<<<< Updated upstream
 <body>
     <section>
         <button id="ingredient" class="add"><a href="{{ path('app_ingredient_index')}}">Ajouter un ingredient</a></button>
@@ -32,6 +33,18 @@
                 {# <p> {{recipe.comment}} </p> #}
             {% else %}
             {% endfor %}
+=======
+<section>
+    <button id="ingredient" class="add"><a href="{{ path('app_ingredient_show')}}">Ajouter un ingredient</a></button>
+    <button id="recipe" class="add"><a href="{{ path('app_recipe_show')}}">Ajouter une recette</a></button>
+    <div class="unique_recipe">
+        {% for recipe in recipes %}
+        <img src={{recipe.image}} alt="Picture of the recipe">
+        <div class="main_infos_recipe">
+            <a href="{{ path('app_recipe_show', {id: recipe.id}) }}">{{recipe.name}} </a>
+            {# <h4> {{recipe.forHowManyPersons}} </h4>
+            <h4> {{recipe.duration|date('Y-m-d') }} minute</h4> #}
+>>>>>>> Stashed changes
         </div>
     </section>
 </body>
