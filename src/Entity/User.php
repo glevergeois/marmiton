@@ -226,7 +226,7 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
         if ($this->ingredients->removeElement($ingredient)) {
             // set the owning side to null (unless already changed)
             if ($ingredient->getCreator() === $this) {
-                $ingredient->setCreator(null);
+                // $ingredient->setCreator(null);
             }
         }
 

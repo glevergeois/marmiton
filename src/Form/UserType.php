@@ -18,15 +18,15 @@ class UserType extends AbstractType
             ->add('username')
             ->add('password')
             ->add('name')
-            ->add('favourite')
-            ->add('comment', EntityType::class, [
-                'class' => Comment::class,
-                'choice_label' => 'id',
-            ])
-            ->add('ingredient', EntityType::class, [
-                'class' => Ingredient::class,
-                'choice_label' => 'id',
-            ])
+            // ->add('favourite')
+            // ->add('comment', EntityType::class, [
+            //     'class' => Comment::class,
+            //     'choice_label' => 'id',
+            // ])
+            // ->add('ingredients', EntityType::class, [
+            //     'class' => Ingredient::class,
+            //     'choice_label' => 'id',
+            // ])
         ;
     }
 
