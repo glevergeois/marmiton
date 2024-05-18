@@ -1,0 +1,50 @@
+<ul class="nav nav-underline">
+
+        <a class="nav-link active" aria-current="page" href="/"><div id="for_logo"><img src="{{asset('build/img/logo.svg')}}" alt="logo" width="150" height="150"></div></a>
+
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Accueil</a>
+        </li>
+
+        {% if app.user %}
+        
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Créer</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="{{ path('app_recipe_index')}}">Nouvelle recette</a></li>
+                <li><a class="dropdown-item" href="{{ path('app_ingredient_index')}}">Nouveau ingrédient</a></li>
+            </ul>
+            
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Inscription</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Connection</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ path('app_logout') }}">Se déconnecter</a>
+        </li>
+
+        {% else %}
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Créer</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item disabled" href="{{ path('app_recipe_index')}}">Nouvelle recette</a></li>
+                <li><a class="dropdown-item disabled" href="{{ path('app_ingredient_index')}}">Nouveau ingrédient</a></li>
+            </ul>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="{{ path('app_register')}}">Inscription</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ path('app_login')}}">Connection</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Se déconnecter</a>
+        </li>
+        {% endif %}
+</ul>

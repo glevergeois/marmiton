@@ -8,21 +8,8 @@
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
 
-<header>
-    <div id="for_logo"><img src="{{asset('build/img/logo.svg')}}" alt="logo"></div>
-    <div id="for_users">
-        {% if app.user %}
-        <a href="{{ path('app_logout') }}">Logout</a>
-        {% else %}
-        <a href="{{ path('app_register')}}">Inscription</a>
-        <a href="{{ path('app_login')}}">Connexion</a>
-        {% endif %}
-    </div>
-</header>
-
 <body>
     <section>       
-        <button id="recipe" class="add"><a href="{{ path('app_recipe_index')}}">Ajouter une recette</a></button>
         <div class="unique_recipe">
             {% for recipe in recipes %}
             <img src="/img/{{recipe.image}}" alt="Picture of the recipe">
@@ -46,7 +33,6 @@
             {% else %}
             {% endfor %}
         </div>
-        <button id="ingredient" class="add"><a href="{{ path('app_ingredient_index')}}">Ajouter un ingredient</a></button>
     </section>
 </body>
 
