@@ -15,10 +15,14 @@ use Symfony\Component\Routing\Attribute\Route;
 class IngredientController extends AbstractController
 {
     #[Route('/', name: 'app_ingredient_index', methods: ['GET'])]
-    public function index(IngredientRepository $ingredientRepository): Response
+    public function index(Request $request, IngredientRepository $ingredientRepository): Response
     {
+
+        $currentRoute = $request->attributes->get('_route');
+
         return $this->render('ingredient/index.html.twig', [
             'ingredients' => $ingredientRepository->findAll(),
+            'currentRoute' => $currentRoute,
         ]);
     }
 
@@ -28,6 +32,7 @@ class IngredientController extends AbstractController
         $ingredient = new Ingredient();
         $form = $this->createForm(IngredientType::class, $ingredient);
         $form->handleRequest($request);
+        $currentRoute = $request->attributes->get('_route');
 
         if ($form->isSubmitted() && $form->isValid()) {
             $entityManager->persist($ingredient);
@@ -39,14 +44,18 @@ class IngredientController extends AbstractController
         return $this->render('ingredient/new.html.twig', [
             'ingredient' => $ingredient,
             'form' => $form,
+            'currentRoute' => $currentRoute,
         ]);
     }
 
     #[Route('/{id}', name: 'app_ingredient_show', methods: ['GET'])]
-    public function show(Ingredient $ingredient): Response
+    public function show(Request $request, Ingredient $ingredient): Response
     {
+        $currentRoute = $request->attributes->get('_route');
+
         return $this->render('ingredient/show.html.twig', [
             'ingredient' => $ingredient,
+            'currentRoute' => $currentRoute,
         ]);
     }
 
@@ -55,6 +64,7 @@ class IngredientController extends AbstractController
     {
         $form = $this->createForm(IngredientType::class, $ingredient);
         $form->handleRequest($request);
+        $currentRoute = $request->attributes->get('_route');
 
         if ($form->isSubmitted() && $form->isValid()) {
             $entityManager->flush();
@@ -65,6 +75,7 @@ class IngredientController extends AbstractController
         return $this->render('ingredient/edit.html.twig', [
             'ingredient' => $ingredient,
             'form' => $form,
+            'currentRoute' => $currentRoute,
         ]);
     }
 

@@ -37,8 +37,11 @@ class RegistrationController extends AbstractController
             return $this->redirectToRoute('app_index');
         }
 
+        $currentRoute = $request->attributes->get('_route');
+
         return $this->render('registration/register.html.twig', [
             'registrationForm' => $form,
+            'currentRoute' => $currentRoute,
         ]);
     }
 }

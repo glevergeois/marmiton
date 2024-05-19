@@ -17,10 +17,13 @@ use Symfony\Component\String\Slugger\SluggerInterface;
 class RecipeController extends AbstractController
 {
     #[Route('/', name: 'app_recipe_index', methods: ['GET'])]
-    public function index(RecipeRepository $recipeRepository): Response
+    public function index(Request $request, RecipeRepository $recipeRepository): Response
     {
+        $currentRoute = $request->attributes->get('_route');
+
         return $this->render('recipe/index.html.twig', [
             'recipes' => $recipeRepository->findAll(),
+            'currentRoute' => $currentRoute,
         ]);
     }
 
@@ -30,6 +33,7 @@ class RecipeController extends AbstractController
         $recipe = new Recipe();
         $form = $this->createForm(RecipeType::class, $recipe);
         $form->handleRequest($request);
+        $currentRoute = $request->attributes->get('_route');
 
         if ($form->isSubmitted() && $form->isValid()) {
 
@@ -62,14 +66,18 @@ class RecipeController extends AbstractController
         return $this->render('recipe/new.html.twig', [
             'recipe' => $recipe,
             'form' => $form,
+            'currentRoute' => $currentRoute,
         ]);
     }
 
     #[Route('/{id}', name: 'app_recipe_show', methods: ['GET'])]
-    public function show(Recipe $recipe): Response
+    public function show(Request $request, Recipe $recipe): Response
     {
+        $currentRoute = $request->attributes->get('_route');
+
         return $this->render('recipe/show.html.twig', [
             'recipe' => $recipe,
+            'currentRoute' => $currentRoute,
         ]);
     }
 
@@ -78,6 +86,7 @@ class RecipeController extends AbstractController
     {
         $form = $this->createForm(RecipeType::class, $recipe);
         $form->handleRequest($request);
+        $currentRoute = $request->attributes->get('_route');
 
         if ($form->isSubmitted() && $form->isValid()) {
             $entityManager->flush();
@@ -88,6 +97,7 @@ class RecipeController extends AbstractController
         return $this->render('recipe/edit.html.twig', [
             'recipe' => $recipe,
             'form' => $form,
+            'currentRoute' => $currentRoute,
         ]);
     }
 
