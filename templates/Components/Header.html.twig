@@ -19,7 +19,7 @@
             <a {% if app.user %} class="nav-link disabled" {% else %} {% if currentRoute == 'app_register' %} class="nav-link active" {% else %} class="nav-link" {% endif %} {% endif %} href="{{ path('app_register') }}" aria-disabled="true">Inscription</a>
         </li>
         <li class="nav-item">
-            <a {% if app.user %} class="nav-link disabled" {% else %} {% if currentRoute == 'app_login' %} class="nav-link active" {% else %} class="nav-link" {% endif %} {% endif %} href="{{ path('app_login') }}" aria-disabled="true">Connection</a>
+            <a {% if app.user %} class="nav-link disabled" {% else %} {% if currentRoute == 'app_login' %} class="nav-link active" {% else %} class="nav-link" {% endif %} {% endif %} href="{{ path('app_login') }}" aria-disabled="true">Connexion</a>
         </li>
         <li class="nav-item">
             <a {% if app.user %} class="nav-link" {% else %} class="nav-link disabled" {% endif %} href="{{ path('app_logout') }}">Se déconnecter</a>
